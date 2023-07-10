@@ -7,7 +7,7 @@ import logo from '../img/logo.png';
 import axios from 'axios';
 
 const client = axios.create({
-  baseURL: 'https://apiloginproyectointegrador.onrender.com/',
+  baseURL: 'https://apiloginproyectointegrador.onrender.com',
 });
 
 export function Register() {

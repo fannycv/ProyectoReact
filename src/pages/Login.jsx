@@ -11,7 +11,7 @@ axios.defaults.xsrfHeaderName = 'X-CSRFToken';
 axios.defaults.withCredentials = true;
 
 const client = axios.create({
-  baseURL: 'https://apiloginproyectointegrador.onrender.com/',
+  baseURL: 'https://apiloginproyectointegrador.onrender.com',
 });
 
 export function Login() {
