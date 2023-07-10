@@ -7,7 +7,7 @@ import logo from '../img/logo.png';
 import axios from 'axios';
 
 const client = axios.create({
-  baseURL: 'http://127.0.0.1:8000',
+  baseURL: 'https://apiloginproyectointegrador.onrender.com/',
 });
 
 export function Register() {
@@ -82,7 +82,7 @@ export function Register() {
               />
             </div>
             <div className="mb-4">
-            <Form.Label style={{ display: 'flex', alignItems: 'center' }}>
+              <Form.Label style={{ display: 'flex', alignItems: 'center' }}>
                 Contraseña
                 <span style={{ marginLeft: '5px', fontSize: '12px', color: 'yellow' }}>
                   (min 8 caracteres)
